@@ -1,7 +1,5 @@
 # EDX_Algo_FirstAssignment
-      FirstGraded Assignment
-
-
+  First Graded Assignment
 # Sorting Algorithm used: Merge Sort
 # Complexity: O(n*log(n))
 
@@ -32,3 +30,6 @@ For graded-test cases:
 
    The size of the vectors "num" and "weights" lies in the range 10000 to 100000.
    The entries of "num" and "weights" lie in the range 10 to 99.
+
+
+
