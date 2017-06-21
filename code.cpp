@@ -5,28 +5,27 @@ using namespace std;
 
 void merge(vector<int> & num, vector<int> & weights, int l, int r, int m)
    {
-
+   
       int li,ri,sizel,sizer;
       sizel = m - l + 1;
       sizer = r - m;
       int lar[sizel];
       int rar[sizer];
-
-
       int lnum[sizel];
       int rnum[sizer];
-
 
       for(int i = 0; i < sizel; i++)
       {
          lar[i] = weights[l + i];
          lnum[i] = num[l + i];
       }
+
       for(int i = 0; i < sizer; i++)
       {
          rar[i] = weights[m + 1 + i];
          rnum[i] = num[m + 1 + i];
       }
+   
       li = 0;
       ri = 0;
       int k = l;
@@ -62,10 +61,10 @@ void merge(vector<int> & num, vector<int> & weights, int l, int r, int m)
             num[k] = rnum[ri];
             ri++;
          }
-
          k++;
-
+         
       }
+      
       while(li < sizel)
       {
          weights[k] = lar[li];
@@ -73,6 +72,7 @@ void merge(vector<int> & num, vector<int> & weights, int l, int r, int m)
          li++;
          k++;
       }
+   
       while(ri > sizer)
       {
          weights[k] = rar[ri];
@@ -80,6 +80,7 @@ void merge(vector<int> & num, vector<int> & weights, int l, int r, int m)
          ri++;
          k++;
       }
+   
    }
 
 
