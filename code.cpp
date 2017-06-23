@@ -30,6 +30,9 @@ Written By: Tony Josi
 Date:       21/6/17
 */
 
+
+//SOLUTION
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -134,7 +137,7 @@ void merge(vector<int> & num, vector<int> & weights, int l, int r, int m)
       sort(num,weights,start,end);
    }
 
-
+//Main Function to test the CustomSort()
  
 int main() 
 {
