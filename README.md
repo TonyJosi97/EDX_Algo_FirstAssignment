@@ -1,10 +1,11 @@
 # EDX_Algo_FirstAssignment
   First Graded Assignment
-# Sorting Algorithm used: Merge Sort
-# Complexity: O(n*log(n))
+  
+#### Sorting Algorithm used: Merge Sort
+#### Complexity: O(n*log(n))
 
 
-# PROBLEM:
+### PROBLEM:
 
 You need to write the implementation of the given function:
 
@@ -15,16 +16,16 @@ appear first and in case the weights are equal, we put the greater number first 
 We check the precision of your function by calling it with start index being equal to 0 and 
 end index to num.size()-1. Your aim is to complete the given function.
 
-We also wish efficient algorithms. We expect an O(n*log(n)) algorithm here instead of a O(n^2) one.
+We also wish efficient algorithms. We expect an `O(n*log(n))` algorithm here instead of a `O(n^2)` one.
 
 
 For example:
 
-num= {1, 4, 9, 6, 9}
+`num= {1, 4, 9, 6, 9}`
 
-weights= {2, 9, 5, 9, 8}
+`weights= {2, 9, 5, 9, 8}`
 
-Expected Output = 6 4 9 9 1
+`Expected Output = 6 4 9 9 1`
 
 For graded-test cases:
 
